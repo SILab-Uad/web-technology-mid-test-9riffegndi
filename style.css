@@ -4,13 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: white; 
+    color: #4a4a4a;
 }
 
 .container {
     text-align: center;
+    display: flex ;
+    flex-direction: column;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    box-shadow: #4a4a4a 0 0 10px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -25,3 +28,55 @@ h1 {
 }
 
 /* Add more styles here as needed */
+
+
+button {
+    background-color: rgb(33, 30, 30);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+.output {
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    color: #4a4a4a;
+    border: 1px solid #4a4a4a;
+}
+
+.inputCount {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size:1rem;
+}
+
+.wrapperCheck {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperCheck input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperCheck p {
+    margin-top: -20px;
+}
+
+
+.wrapperOutputGenpw {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px black solid;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
